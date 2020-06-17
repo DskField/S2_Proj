@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <meta charset="utf-8" />    
+        <title></title>
+        <asp:ContentPlaceHolder id="head" runat="server" />
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <header>
+                <a><img class="logo" src="Images/8Ri5g8JK_400x400.png"></a>
+                <a><img class="menu" src="Images/Hamburger.png"></a>
+            </header>
+            <main>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server" />
+            </main>
+            <?php
+
+                date_default_timezone_set("Europe/Amsterdam");
+                $uur = date("H");
+
+                $wens = null;
+
+                if
+                ($uur >= 0 && $uur < 5) {
+                    $wens = "Goedennacht, ";
+                }
+                elseif
+                ($uur >= 5 && $uur < 12) {
+                    $wens = "Goedenochtend, ";
+                }
+                elseif
+                ($uur >= 12 && $uur < 17) {
+                    $wens = "Goedenmiddag, ";
+                }
+                else
+                {
+                    $wens = "Goedenavond, ";
+                }
+
+                echo "
+                        <footer>
+                            <p> " . $wens . " </p>
+                            <p> Copyright Mojo</p>
+                        </footer>
+                        ";
+            ?>
+        </form>
+    </body>
+</html>
