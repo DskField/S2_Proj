@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 
 <?php
-include "Includes/moduleheader.php"
+    include "Includes/moduleheader.php"
 ?>
 
 <html lang="nl">
