@@ -42,15 +42,16 @@ footer
 {
     height: 40px;
     background: #3E5AB7;
-    justify-content: center;
+    text-align: center;
 }
 
 footer > p {
     margin: unset;
+    color: #fff;
 }
 
 section {
-
+    min-height: 400px;
 }
 
 .menu

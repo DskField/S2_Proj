@@ -47,8 +47,6 @@ include "Includes/moduleheader.php"
                 </p>
             </section>
 
-
-            <br><br><br>
             <h1>
                 Programma
             </h1>
