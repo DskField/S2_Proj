@@ -1,0 +1,98 @@
+body
+{
+    margin: 0px;
+}
+.menu , .logo
+{
+    height: 80px;
+    margin-right: 10px;
+}
+header
+{
+    background-image: url(Images/137480.jpg);
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+.menu
+{
+    float: right
+}
+.bigImg
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 8px;
+    height: 600px;
+    box-shadow: 1px 1px 0px #3E5AB7 ,
+                2px 2px 0px #3E5AB7 ,
+                3px 3px 0px #3E5AB7 ,
+                4px 4px 0px #3E5AB7 ,
+                5px 5px 0px #3E5AB7 ,
+                6px 6px 0px #3E5AB7 ;
+}
+main
+{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 130;
+}
+h1
+{
+    margin: 0px;
+    color: #adadad;
+}
+hr
+{
+    color: #adadad;
+}
+.textimageleft
+{
+    height: 300px;
+    float: left;
+    margin: 10px;
+    border-radius: 8px;
+     box-shadow: 1px 1px 0px #3E5AB7 ,
+                2px 2px 0px #3E5AB7 ,
+                3px 3px 0px #3E5AB7 ,
+                4px 4px 0px #3E5AB7 ,
+                5px 5px 0px #3E5AB7 ,
+                6px 6px 0px #3E5AB7 ;
+}
+.textimageright
+{
+    height: 300px;
+    float: right;
+    margin: 10px;
+    border-radius: 8px;
+     box-shadow: 1px 1px 0px #3E5AB7 ,
+                2px 2px 0px #3E5AB7 ,
+                3px 3px 0px #3E5AB7 ,
+                4px 4px 0px #3E5AB7 ,
+                5px 5px 0px #3E5AB7 ,
+                6px 6px 0px #3E5AB7 ;
+}
+p
+{
+    font-size: 20px;
+}
+.programma
+{
+    background-image: url(Images/Background-opacity.jpg);
+    padding: 50px;
+}
+.programmaImg
+{
+  margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 600px;
+    border-radius: 8px;
+     box-shadow: 1px 1px 0px #3E5AB7 ,
+                2px 2px 0px #3E5AB7 ,
+                3px 3px 0px #3E5AB7 ,
+                4px 4px 0px #3E5AB7 ,
+                5px 5px 0px #3E5AB7 ,
+                6px 6px 0px #3E5AB7 ;
+}
