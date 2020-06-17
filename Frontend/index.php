@@ -9,7 +9,7 @@ include "Includes/moduleheader.php"
     <head>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>
-            Uitwerkingen
+            Mojo Concerts
         </title>
     </head>
 
