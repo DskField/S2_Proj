@@ -7,9 +7,12 @@ include "Includes/moduleheader.php"
 <html lang="nl">
 
     <head>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta charset="utf-8">
+        <meta name="description" content="opdracht x">
+        <meta name="keywords" content="keyword 1, keyword 2">
+        <link href='CSS/style.css' type="text/css" rel="stylesheet">
         <title>
-            Mojo Concerts
+            Instructie
         </title>
     </head>
 
