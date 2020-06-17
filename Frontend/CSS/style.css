@@ -49,6 +49,10 @@ footer > p {
     margin: unset;
 }
 
+section {
+
+}
+
 .menu
 {
     float: right
@@ -67,12 +71,12 @@ footer > p {
     display: block;
     border-radius: 8px;
     height: 600px;
-    box-shadow: 1px 1px 0px #3E5AB7 ,
-                2px 2px 0px #3E5AB7 ,
-                3px 3px 0px #3E5AB7 ,
-                4px 4px 0px #3E5AB7 ,
-                5px 5px 0px #3E5AB7 ,
-                6px 6px 0px #3E5AB7 ;
+    box-shadow: 1px 1px 0 #3E5AB7 ,
+                2px 2px 0 #3E5AB7 ,
+                3px 3px 0 #3E5AB7 ,
+                4px 4px 0 #3E5AB7 ,
+                5px 5px 0 #3E5AB7 ,
+                6px 6px 0 #3E5AB7 ;
 
 }
 
@@ -82,12 +86,12 @@ footer > p {
     float: left;
     margin: 10px;
     border-radius: 8px;
-     box-shadow: 1px 1px 0px #3E5AB7 ,
-                2px 2px 0px #3E5AB7 ,
-                3px 3px 0px #3E5AB7 ,
-                4px 4px 0px #3E5AB7 ,
-                5px 5px 0px #3E5AB7 ,
-                6px 6px 0px #3E5AB7 ;
+     box-shadow: 1px 1px 0 #3E5AB7 ,
+                2px 2px 0 #3E5AB7 ,
+                3px 3px 0 #3E5AB7 ,
+                4px 4px 0 #3E5AB7 ,
+                5px 5px 0 #3E5AB7 ,
+                6px 6px 0 #3E5AB7 ;
 }
 
 .textimageright
@@ -96,12 +100,12 @@ footer > p {
     float: right;
     margin: 10px;
     border-radius: 8px;
-     box-shadow: 1px 1px 0px #3E5AB7 ,
-                 2px 2px 0px #3E5AB7 ,
-                 3px 3px 0px #3E5AB7 ,
-                 4px 4px 0px #3E5AB7 ,
-                 5px 5px 0px #3E5AB7 ,
-                 6px 6px 0px #3E5AB7 ;
+     box-shadow: 1px 1px 0 #3E5AB7 ,
+                 2px 2px 0 #3E5AB7 ,
+                 3px 3px 0 #3E5AB7 ,
+                 4px 4px 0 #3E5AB7 ,
+                 5px 5px 0 #3E5AB7 ,
+                 6px 6px 0 #3E5AB7 ;
 }
 
 p
@@ -122,10 +126,10 @@ p
     display: block;
     height: 600px;
     border-radius: 8px;
-     box-shadow: 1px 1px 0px #3E5AB7 ,
-                 2px 2px 0px #3E5AB7 ,
-                 3px 3px 0px #3E5AB7 ,
-                 4px 4px 0px #3E5AB7 ,
-                 5px 5px 0px #3E5AB7 ,
-                 6px 6px 0px #3E5AB7 ;
+     box-shadow: 1px 1px 0 #3E5AB7 ,
+                 2px 2px 0 #3E5AB7 ,
+                 3px 3px 0 #3E5AB7 ,
+                 4px 4px 0 #3E5AB7 ,
+                 5px 5px 0 #3E5AB7 ,
+                 6px 6px 0 #3E5AB7 ;
 }
