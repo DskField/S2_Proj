@@ -24,12 +24,12 @@ include "Includes/moduleheader.php"
 
         <main>
 
-            <img class="bigImg" src="Images/Sabaton.jpg">
+            <img class="bigImg" src="Images/Sabaton.jpg" alt="sabaton band">
 
             <section class="text1">
                 <h1>Kop</h1>
                 <hr>
-                <img class="textimageleft" src="Images/20200212-COPENHAGEN-00177.jpg">
+                <img class="textimageleft" src="Images/20200212-COPENHAGEN-00177.jpg" alt="sabaton copenhagen">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.
@@ -40,7 +40,7 @@ include "Includes/moduleheader.php"
 
             <section>
                 <hr>
-                <img class="textimageright" src="Images/20200212-COPENHAGEN-00177.jpg">
+                <img class="textimageright" src="Images/20200212-COPENHAGEN-00177.jpg" alt="sabaton copenhagen">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.
