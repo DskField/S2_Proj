@@ -8,11 +8,11 @@ include "Includes/moduleheader.php"
 
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="opdracht x">
+        <meta name="description" content="Hoofdpagina">
         <meta name="keywords" content="keyword 1, keyword 2">
-        <link href='CSS/style.css' type="text/css" rel="stylesheet">
+        <link href="CSS/style.css" type="text/css" rel="stylesheet">
         <title>
-            Instructie
+            Mojo Concerts
         </title>
     </head>
 
@@ -23,7 +23,24 @@ include "Includes/moduleheader.php"
         ?>
 
         <main>
+            <img class="bigImg" src="Images/Sabaton.jpg">
+            <h1>Kop</h1>
+            <hr>
+            <img class="textimageleft" src="Images/20200212-COPENHAGEN-00177.jpg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.</p>
+            <br><br><br><br><br>
+            <hr>
+            <img class="textimageright" src="Images/20200212-COPENHAGEN-00177.jpg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.</p>
+            <br><br><br>
+            <h1>Kop</h1>
+            <hr>
 
+            <section class="programma">
+                <img class="programmaImg" src="Images/sabaton-tour2020.jpg" alt="sabaton tour">
+            </section>
         </main>
 
         <?php

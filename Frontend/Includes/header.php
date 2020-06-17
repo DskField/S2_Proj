@@ -6,7 +6,8 @@ Bestandsnaam:   header.php
 -->
 <!--DOCTYPE.html-->
 
-    <header>
-
-    </header>
+<header>
+    <a><img class="logo" src="Images/8Ri5g8JK_400x400.png"></a>
+    <a><img class="menu" src="Images/Hamburger.png"></a>
+</header>
 
