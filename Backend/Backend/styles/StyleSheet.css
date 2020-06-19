@@ -1,0 +1,64 @@
+﻿@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('Roboto-Medium.ttf') format('truetype');
+}
+
+/* Haalt die scrollbar weg */
+* { /* Firefox */
+    scrollbar-width: none;
+    font-family: Roboto-Medium;
+}
+
+::-webkit-scrollbar { /* Chrome */
+    display: none;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-image: url('../images/137480.jpg');
+    top: 0;
+    width: 100%;
+}
+
+main {
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 130px;
+}
+
+h1 {
+    margin: 0;
+    color: #adadad;
+}
+
+hr {
+    color: #adadad;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+
+    footer > p {
+        margin: unset;
+        padding: 10px;
+    }
+
+.menu {
+    float: right
+}
+
+.menu, .logo {
+    height: 80px;
+    margin-right: 10px;
+}

@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+        <title></title>
+        <link href="styles/StyleSheet.css" rel="stylesheet" />
+        <asp:ContentPlaceHolder id="head" runat="server">
+        </asp:ContentPlaceHolder>
+        <asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString='<%$ ConnectionStrings:eventSiteConnectionString %>' SelectCommand="SELECT * FROM [Account]"></asp:SqlDataSource>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <header>
+                <nav>
+                    <a href="/S2_Proj/Frontend/index.php"><img class="logo" src="images/ves8yaqp.bmp"></a>
+                </nav>
+            </header>
+            <main>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </main>
+            <footer>
+                <p> Copyright Mojo</p>
+            </footer>
+        </form>
+    </body>
+</html>

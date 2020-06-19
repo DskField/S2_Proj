@@ -1,0 +1,23 @@
+﻿main div {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    padding: 6px;
+    display: block;
+    width: 250px;
+    font-weight: bold;
+    margin: auto;
+    background-color: #3E5AB7;
+    border: 0;
+    color: white;
+    font-size: 1.2em;
+}
+
+    input[type=submit] {
+        width: 100px;
+        margin: 20px auto;
+    }
