@@ -1,6 +1,6 @@
 <!--
 Opdracht:       Project
-Auteur:         Siebe van der Haring
+Auteur:         Siebe van der Haring en David Klein Velderman
 Aanmaakdatum:   15-6-2020
 Bestandsnaam:   header.php
 -->
