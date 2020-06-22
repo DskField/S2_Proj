@@ -22,7 +22,9 @@ include "Includes/moduleheader.php"
             <table>
                 <thead>
                 <tr>
-                    <th><h1>Neem Contact Met Ons Op</h1></th>
+                    <th>
+                        <h1>Neem Contact Met Ons Op</h1>
+                    </th>
                     <th>TELEFOONNUMMER</th>
                     <th>EMAIL</th>
                 </tr>

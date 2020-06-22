@@ -7,15 +7,9 @@
 
 <html lang="nl">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Hoofdpagina">
-        <meta name="keywords" content="keyword 1, keyword 2">
-        <link href="CSS/style.css" type="text/css" rel="stylesheet">
-        <title>
-            Mojo Concerts
-        </title>
-    </head>
+<?php
+require "Includes/meta.php";
+?>
 
     <body>
 

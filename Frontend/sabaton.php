@@ -6,22 +6,9 @@ include "Includes/moduleheader.php"
 
 <html lang="nl">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="Hoofdpagina">
-    <meta name="keywords" content="keyword 1, keyword 2">
-
-    <link href="CSS/style.css" type="text/css" rel="stylesheet">
-    <link href="CSS/dropdown.css" type="text/css" rel="stylesheet">
-
-    <script src="Scripts/jquery-3.4.1.js"></script>
-    <script src="Scripts/script.js" defer></script>
-    <script src="Scripts/dropdown.js" defer></script>
-
-    <title>
-        Mojo Concerts
-    </title>
-</head>
+<?php
+require "Includes/meta.php";
+?>
 
 <body>
 
