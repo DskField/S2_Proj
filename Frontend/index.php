@@ -46,7 +46,58 @@ include "Includes/moduleheader.php"
                     Programma
                 </h1>
                 <hr>
-                <!-- Hier komt databaselink naar programma -->
+                <?php
+
+                    try {
+                        $pdo = new PDO("odbc:eventdatasource");
+                    }
+                    catch (PDOException $e) {
+                        echo "<h1>Database error</h1>";
+                        echo $e->getMessage();
+                        die();
+                    }
+
+                    echo "Connectie gelukt.";
+
+                    try {
+                        $sql = 'SELECT
+                                    Evenement.eventID,
+                                    Evenement.eventName,
+                                    Optreden.optredenID,
+                                    Optreden.artiest
+                                FROM
+                                     Evenement
+                                INNER JOIN
+                                    Optreden
+                                    ON
+                                    Evenement.eventOpt = Optreden.optredenID';
+
+                        $result = $pdo->query($sql);
+
+                    } catch (PDOException $e){
+                        echo 'Er is een probleem met ophalen van data: ' . $e->getMessage();
+                        exit();
+                    }
+
+                    $aCreds = array();
+
+                    try {
+                        while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
+                            $aCreds[] = $row;
+                        }
+
+                        echo "<pre>";
+                        var_dump($aCreds);
+                        echo "</pre>";
+                    } catch (PDOException $e){
+                        echo 'Er is een probleem met uitschrijven van data: ' . $e->getMessage();
+                        exit();
+                    }
+
+
+
+
+                ?>
             </section>
         </main>
 
