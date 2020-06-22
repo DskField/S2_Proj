@@ -1,25 +1,17 @@
 <!--
 Opdracht:       Project
-Auteur:         Siebe van der Haring
+Auteur:         Siebe van der Haring en David Klein Velderman
 Aanmaakdatum:   15-6-2020
 Bestandsnaam:   header.php
 -->
 <!--DOCTYPE.html-->
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="opdracht x">
-        <meta name="keywords" content="keyword 1, keyword 2">
-        <link href='../CSS/style.css' type="text/css" rel="stylesheet">
-        <title>
-            Instructie
-        </title>
-    </head>
-    <body>
-        <header>
+<header>
 
-        </header>
-        <p>Stinky</p>
-    </body>
-</html>
+    <a class="logo" href="/S2_Proj/Frontend/index.php"><img class="logo" src="Images/8Ri5g8JK_400x400.png"></a>
+
+    <?php
+        require "menu.php"
+    ?>
+</header>
+
