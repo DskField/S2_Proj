@@ -1,0 +1,29 @@
+.Welcome
+{
+    font-size: 100px;
+    background-image: url(Images/Background-opacity.jpg);
+    margin-top: 80px;
+    padding: 50px;
+    color: lightgrey;
+    letter-spacing: 15;
+    text-shadow: 3px 3px #3E5AB7;
+}
+body
+{
+    font-family: sans-serif;
+}
+td
+{
+    width: 500px;
+    text-align: center;
+}
+.Grey
+{
+    color: grey;
+}
+table
+{
+    font-size: 25;
+    margin-left: auto;
+    margin-right: auto;
+}
