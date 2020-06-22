@@ -18,15 +18,15 @@ include "Includes/moduleheader.php"
 
         <main>
 
-            <img class="bigImg" src="Images/Sabaton.jpg" alt="sabaton band">
+            <img class="bigImg" src="Images/Fortarock-2019.jpg" alt="sabaton band">
 
             <section>
-                <h1>Kop</h1>
+                <h1>Welkom bij Fortarock 2021!</h1>
                 <hr>
-                <img class="textimageleft" src="Images/20200212-COPENHAGEN-00177.jpg" alt="sabaton copenhagen">
+                <img class="textimageleft" src="Images/podium1.jpg" alt="sabaton copenhagen">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.
+                    Al sinds 2009 is Fortarock het Heavy Music festival van Nijmegen en omgeving. In 2021 vindt Fortarock plaats op 1 juni en 2 juni. </br>
+                    Fortarock is het grootste metal/rock festival van Nederland. Afgelopen jaren waren Nightwish, Volbeat, Slipknot en Iron Maiden headliner.
                 </p>
 
             </section>
@@ -34,10 +34,11 @@ include "Includes/moduleheader.php"
 
             <section>
                 <hr>
-                <img class="textimageright" src="Images/20200212-COPENHAGEN-00177.jpg" alt="sabaton copenhagen">
+                <img class="textimageright" src="Images/podium2.jpg" alt="sabaton copenhagen">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.
+                    Fortarock is weer <strong>back in business</strong> na een kleine hiatus van een jaartje van onze organisatie! </br>
+                    Dit jaar spelen weer topbands zoals Sabaton, Bon Jovi, Y&T, Queen (Freddy Mercury is ondertussen weer levend), Iron Maiden, Korn (want waarom niet),
+                    Slipknot en meer!
                 </p>
             </section>
 
@@ -94,7 +95,7 @@ include "Includes/moduleheader.php"
                         exit();
                     }
 
-
+                    die();
 
 
                 ?>

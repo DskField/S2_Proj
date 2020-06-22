@@ -18,22 +18,19 @@ include "Includes/moduleheader.php"
 
         <h1 class="Welcome">Hallo,<br> Welkom</h1>
         <main>
+            <h1>Neem Contact Met Ons Op</h1>
             <hr>
-            <table>
+            <table class="tablestyle">
                 <thead>
                 <tr>
-                    <th>
-                        <h1>Neem Contact Met Ons Op</h1>
-                    </th>
                     <th>TELEFOONNUMMER</th>
                     <th>EMAIL</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr class="Grey">
-                    <td></td>
-                    <td>06 12345678</td>
-                    <td>Mojoconcerts@info.nl</td>
+                    <td class="tdwidth">06 12345678</td>
+                    <td class="tdwidth" >Mojoconcerts@info.nl</td>
                 </tr>
                 </tbody>
             </table>

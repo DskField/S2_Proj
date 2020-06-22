@@ -1,0 +1,31 @@
+.Welcome
+{
+    font-size: 100px;
+    background-image: url(../Images/Background-opacity.jpg);
+    margin-top: 80px;
+    padding: 20px 0 10px 20px;
+    color: lightgrey;
+    letter-spacing: 15px;
+    text-shadow: 3px 3px #3E5AB7;
+}
+.tdwidth
+{
+    width: 500px;
+    text-align: center;
+}
+.Grey
+{
+    color: grey;
+}
+.tablestyle
+{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
