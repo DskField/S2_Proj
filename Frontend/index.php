@@ -10,7 +10,14 @@ include "Includes/moduleheader.php"
         <meta charset="utf-8">
         <meta name="description" content="Hoofdpagina">
         <meta name="keywords" content="keyword 1, keyword 2">
+
         <link href="CSS/style.css" type="text/css" rel="stylesheet">
+        <link href="CSS/dropdown.css" type="text/css" rel="stylesheet">
+
+        <script src="Scripts/jquery-3.4.1.js"></script>
+        <script src="Scripts/script.js" defer></script>
+        <script src="Scripts/dropdown.js" defer></script>
+
         <title>
             Mojo Concerts
         </title>
@@ -26,7 +33,7 @@ include "Includes/moduleheader.php"
 
             <img class="bigImg" src="Images/Sabaton.jpg" alt="sabaton band">
 
-            <section class="text1">
+            <section>
                 <h1>Kop</h1>
                 <hr>
                 <img class="textimageleft" src="Images/20200212-COPENHAGEN-00177.jpg" alt="sabaton copenhagen">
@@ -47,13 +54,12 @@ include "Includes/moduleheader.php"
                 </p>
             </section>
 
-            <h1>
-                Programma
-            </h1>
-            <hr>
-
-            <section class="programma">
-                <img class="programmaImg" src="Images/sabaton-tour2020.jpg" alt="sabaton tour">
+            <section>
+                <h1>
+                    Programma
+                </h1>
+                <hr>
+                <!-- Hier komt databaselink naar programma -->
             </section>
         </main>
 

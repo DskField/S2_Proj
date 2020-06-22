@@ -18,7 +18,7 @@ header
     background-image: url(../Images/137480.jpg);
     position: fixed; 
     top: 0; 
-    width: 100%; 
+    width: 100%;
 }
 
 main
@@ -31,7 +31,7 @@ main
 h1
 {
     margin: 0;
-    color: #adadad;
+    color: #000;
 }
 hr
 {
@@ -40,7 +40,7 @@ hr
 
 footer
 {
-    height: 40px;
+    height: 50px;
     background: #3E5AB7;
     text-align: center;
 }
@@ -52,6 +52,11 @@ footer > p {
 
 section {
     min-height: 400px;
+}
+
+p
+{
+    font-size: 20px;
 }
 
 .menu
@@ -69,6 +74,7 @@ section {
 {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     display: block;
     border-radius: 8px;
     height: 600px;
@@ -109,15 +115,19 @@ section {
                  6px 6px 0 #3E5AB7 ;
 }
 
-p
+.greyback
 {
-    font-size: 20px;
-}
+    /*
+        Tweaks gemaakt aan de background aangezien je nu duidelijk
+        het kleurverschil kan zien i.p.v. alleen het plaatje
 
-.programma
-{
-    background-image: url(../Images/Background-opacity.jpg);
+        Grts. David
+    */
+    background: url(../Images/Background-opacity.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 400px rgba(0,0,0,0.1);
     padding: 50px;
+    width: auto;
 }
 
 .programmaImg
