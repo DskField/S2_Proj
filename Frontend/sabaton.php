@@ -34,7 +34,38 @@ include "Includes/header.php";
                 die();
             }
 
-            echo "Connectie gelukt.";
+            try {
+                $sql =
+                    "SELECT 
+                        artDesc
+                        FROM
+                        Artiest
+                        WHERE artNaam LIKE 'Sabaton'
+                    ";
+
+                $result = $pdo->query($sql);
+            }
+            catch (PDOException $e){
+                echo 'Er is een probleem met ophalen van data: ' . $e->getMessage();
+                exit();
+            }
+
+            try {
+
+                $aDesc = array();
+                while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
+                    $aDesc[] = $row;
+                }
+
+            } catch (PDOException $e){
+                echo 'Er is een probleem met uitschrijven van data: ' . $e->getMessage();
+                exit();
+            }
+
+            foreach($aDesc as $desc) {
+                echo $desc['artDesc'];
+            }
+
             ?>
         </p>
 
@@ -47,10 +78,12 @@ include "Includes/header.php";
         <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/lDK9QqIzhwk"
+                src="https://www.youtube.com/embed/xET1aTbiHno"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer;
+                autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
+
         </iframe>
 
     </section>

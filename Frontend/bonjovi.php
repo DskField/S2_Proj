@@ -24,8 +24,49 @@ include "Includes/header.php";
         <h1>Bon Jovi</h1>
         <hr>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis diam id ornare suscipit. Mauris sit amet quam massa. Maecenas sodales nibh nunc, id semper lorem viverra sed. Ut convallis, tortor at placerat rutrum, felis erat pellentesque elit, et fermentum eros lacus id nulla. Quisque vitae arcu augue. Cras sapien neque, finibus ac neque dictum, convallis consectetur magna. Vivamus vitae lacus tristique, dignissim enim nec, mollis tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vitae nisi nisl. Donec pulvinar viverra mollis. Nam eu mauris gravida, placerat magna eu, lobortis tortor.
+            <?php
+            try {
+                $pdo = new PDO("odbc:eventdatasource");
+            }
+            catch (PDOException $e) {
+                echo "<h1>Database error</h1>";
+                echo $e->getMessage();
+                die();
+            }
+
+            try {
+                $sql =
+                    "SELECT 
+                        artDesc
+                        FROM
+                        Artiest
+                        WHERE artNaam LIKE 'Bon Jovi'
+                    ";
+
+                $result = $pdo->query($sql);
+            }
+            catch (PDOException $e){
+                echo 'Er is een probleem met ophalen van data: ' . $e->getMessage();
+                exit();
+            }
+
+            try {
+
+                $aDesc = array();
+                while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
+                    $aDesc[] = $row;
+                }
+
+            } catch (PDOException $e){
+                echo 'Er is een probleem met uitschrijven van data: ' . $e->getMessage();
+                exit();
+            }
+
+            foreach($aDesc as $desc) {
+                echo $desc['artDesc'];
+            }
+
+            ?>
         </p>
 
 
