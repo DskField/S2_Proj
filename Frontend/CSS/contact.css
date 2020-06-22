@@ -8,6 +8,13 @@
     letter-spacing: 15px;
     text-shadow: 3px 3px #3E5AB7;
 }
+
+.Welcome,
+.center
+{
+    text-align: center;
+}
+
 .tdwidth
 {
     width: 500px;

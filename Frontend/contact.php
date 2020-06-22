@@ -18,7 +18,7 @@ include "Includes/moduleheader.php"
 
         <h1 class="Welcome">Hallo,<br> Welkom</h1>
         <main>
-            <h1>Neem Contact Met Ons Op</h1>
+            <h1 class="center">Neem Contact Met Ons Op</h1>
             <hr>
             <table class="tablestyle">
                 <thead>
