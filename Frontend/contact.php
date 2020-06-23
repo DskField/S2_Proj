@@ -30,7 +30,7 @@ include "Includes/moduleheader.php"
         include "Includes/header.php";
         ?>
 
-        <h1 class="Welcome">Hallo,<br> Welkom</h1>
+        <h1 class="Welcome center">Hallo,<br> Welkom</h1>
         <main>
             <h1 class="center">Neem Contact Met Ons Op</h1>
             <hr>

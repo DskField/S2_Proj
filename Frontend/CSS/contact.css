@@ -9,28 +9,6 @@
     text-shadow: 3px 3px #3E5AB7;
 }
 
-.Welcome,
-.center
-{
-    text-align: center;
-}
-
-.tdwidth
-{
-    width: 500px;
-    text-align: center;
-}
-.Grey
-{
-    color: grey;
-}
-.tablestyle
-{
-    font-size: 25px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 footer {
     position: absolute;
     bottom: 0;

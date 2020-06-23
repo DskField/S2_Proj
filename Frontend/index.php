@@ -8,6 +8,7 @@ include "Includes/moduleheader.php"
 
     <?php
         require "Includes/meta.php";
+
     ?>
 
     <body>
@@ -58,12 +59,8 @@ include "Includes/moduleheader.php"
                         die();
                     }
 
-                    echo "Connectie gelukt.";
-
                     try {
-                        $sql = 'SELECT
-                                    Evenement.eventID,
-                                    Evenement.eventName,
+                        $sql = "SELECT
                                     Optreden.optredenID,
                                     Optreden.artiest
                                 FROM
@@ -71,7 +68,11 @@ include "Includes/moduleheader.php"
                                 INNER JOIN
                                     Optreden
                                     ON
-                                    Evenement.eventOpt = Optreden.optredenID';
+                                    Evenement.eventOpt = Optreden.optredenID
+                                    
+                                WHERE
+                                    Evenement.eventName LIKE 'Fortarock 2021'
+                                    ";
 
                         $result = $pdo->query($sql);
 
@@ -80,25 +81,46 @@ include "Includes/moduleheader.php"
                         exit();
                     }
 
-                    $aCreds = array();
+                    $aProg = array();
 
                     try {
                         while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
-                            $aCreds[] = $row;
+                            $aProg[] = $row;
                         }
 
-                        echo "<pre>";
-                        var_dump($aCreds);
-                        echo "</pre>";
+                          // Debugging purposes
+//                        echo "<pre>";
+//                        var_dump($aProg);
+//                        echo "</pre>";
+
                     } catch (PDOException $e){
                         echo 'Er is een probleem met uitschrijven van data: ' . $e->getMessage();
                         exit();
                     }
 
-                    die();
+                    echo '<table class="tablestyle">';
+                        echo '<thead>';
+                            echo '<tr> <th>Optredennr.</th> <th>Artiest/Band</th> </tr>';
+                        echo '</thead>';
+                        echo '<tbody>';
 
+                    foreach($aProg as $programma) {
+                        echo '
+                            <tr><td class="tdwidth">'.
 
+                            $programma['optredenID'].
+
+                            '</td><td class="tdwidth">'.
+
+                            $programma['artiest'].'
+                            
+                            </td></tr>';
+                    }
+
+                        echo "</tbody>";
+                        echo "</table>";
                 ?>
+
             </section>
         </main>
 

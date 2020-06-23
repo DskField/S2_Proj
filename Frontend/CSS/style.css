@@ -72,15 +72,9 @@ p
     font-size: 20px;
 }
 
-.menu
-{
-    float: right
-}
-
-.menu , .logo
+.logo
 {
     height: 80px;
-    margin-right: 10px;
 }
 
 .bigImg
@@ -106,7 +100,7 @@ p
     float: left;
     margin: 10px;
     border-radius: 8px;
-     box-shadow: 1px 1px 0 #3E5AB7 ,
+    box-shadow: 1px 1px 0 #3E5AB7 ,
                 2px 2px 0 #3E5AB7 ,
                 3px 3px 0 #3E5AB7 ,
                 4px 4px 0 #3E5AB7 ,
@@ -126,6 +120,11 @@ p
                  4px 4px 0 #3E5AB7 ,
                  5px 5px 0 #3E5AB7 ,
                  6px 6px 0 #3E5AB7 ;
+}
+
+.center
+{
+    text-align: center;
 }
 
 .greyback
